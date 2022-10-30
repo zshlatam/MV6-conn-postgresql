@@ -1,0 +1,24 @@
+﻿@model ImgViewModel
+@{
+    ViewBag.Title = "Inicio";
+}
+<h2>Inicio</h2>
+<p>Bienvenido a la carga de imagenes</p>
+
+<div class="text-center">
+    <form asp-controller="Img" asp-action="Index"
+          enctype="multipart/form-data" method="post">
+        <d1>
+            <dt>
+                <label>Archivo</label>
+            </dt>
+            <dd>
+                <input asp-for="Imagen1" type="file" />
+                <input type="number"asp-for="Id" value="1" />
+            </dd>
+        </d1>
+        <input type="submit"value="Upload" />
+     </form>
+    <p>@ViewBag.message</p>
+    <img  src="@ViewBag.message"/>
+</div>

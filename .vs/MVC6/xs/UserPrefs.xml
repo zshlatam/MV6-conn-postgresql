@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{50168DCA-BE5A-46C7-A06A-A5DDAE1B0ED9}|Default">
+  <MonoDevelop.Ide.ItemProperties.MVC6 PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVC6/Controllers/ImgController.cs">
+    <Files>
+      <File FileName="MVC6/Controllers/ImgController.cs" Line="44" Column="66" />
+      <File FileName="MVC6/Servicios/RepositorioImg.cs" Line="34" Column="1" />
+      <File FileName="MVC6/Models/ImgViewModel.cs" Line="1" Column="1" />
+      <File FileName="MVC6/Views/Img/Index.cshtml" Line="23" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVC6" expanded="True" selected="True">
+            <Node name="MVC6" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Servicios" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Img" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/eliasbrd/Desktop/MVC6/MVC6/MVC6.csproj": {}
+  },
+  "projects": {
+    "/Users/eliasbrd/Desktop/MVC6/MVC6/MVC6.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eliasbrd/Desktop/MVC6/MVC6/MVC6.csproj",
+        "projectName": "MVC6",
+        "projectPath": "/Users/eliasbrd/Desktop/MVC6/MVC6/MVC6.csproj",
+        "packagesPath": "/Users/eliasbrd/.nuget/packages/",
+        "outputPath": "/Users/eliasbrd/Desktop/MVC6/MVC6/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eliasbrd/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
